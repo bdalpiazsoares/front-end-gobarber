@@ -32,7 +32,6 @@ export default function AvatarInput() {
 
     setFile(id);
     setPreview(url);
-    console.tron.log(url);
   }
 
   return (

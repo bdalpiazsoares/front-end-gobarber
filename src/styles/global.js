@@ -13,11 +13,11 @@ export default createGlobalStyle`
 }
 
 *:focus {
-  outline: none;
+  outline: 0;
 }
 
 body, html {
-  height: auto;
+  height: 100%;
 }
 
 body {

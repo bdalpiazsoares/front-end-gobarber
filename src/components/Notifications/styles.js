@@ -37,6 +37,8 @@ export const NotificationList = styled.div`
   padding: 5px 5px;
   display: ${props => (props.visible ? 'block' : 'none')};
 
+  z-index: 1;
+
   &::before {
     content: '';
     position: absolute;
@@ -52,7 +54,7 @@ export const NotificationList = styled.div`
 
 export const Scroll = styled(PerfectScrollbar)`
   max-height: 260px;
-  padding: 5px 25px;
+  padding: 5px 15px;
 `;
 
 export const Notification = styled.div`
@@ -74,6 +76,7 @@ export const Notification = styled.div`
     font-size: 12px;
     opacity: 0.6;
     margin-bottom: 5px;
+    margin-top: 2px;
   }
 
   button {
